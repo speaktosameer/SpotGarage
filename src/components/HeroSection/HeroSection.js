@@ -9,7 +9,7 @@ import {BsInstagram, BsArrowRightCircle} from 'react-icons/bs'
 
 const HeroSection = () => {
   return (
-    <div className="banner-area top-pad-90 bg-mixed double-items text-light" style={{backgroundimage: "url('assets/img/shape/19.png')"}}>
+    <div className="banner-area default-padding bg-mixed double-items text-light" style={{backgroundimage: "url('assets/img/shape/19.png')"}}>
         <div id="bootcarousel" className="carousel slide carousel-fade animate_text" data-ride="carousel">
             {/* <!-- Wrapper for slides --> */}
             <div className="carousel-inner">

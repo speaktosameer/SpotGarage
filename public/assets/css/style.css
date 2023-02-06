@@ -1317,7 +1317,7 @@ a.btn-simple:hover {
 }
 
 .bg-dark {
-  background: #0e2258 none repeat scroll 0 0 !important;
+  background: #6445FF none repeat scroll 0 0 !important;
 }
 
 .bg-gradient-dark {
@@ -1782,10 +1782,10 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 /* Heading Side */
 
 .heading-center {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 1;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 
 .heading-center::after {
@@ -12321,7 +12321,7 @@ padding: 0;
 /* Feature Style Three */
 .feature-area h2 {
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .feature-style-three {
@@ -12346,7 +12346,7 @@ padding: 0;
 }
 
 .feature-style-three {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .feature-style-three p {

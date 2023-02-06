@@ -1,77 +1,86 @@
 import React from 'react'
-import { TiTick } from 'react-icons/ti'
+import {VscDebugBreakpointLogUnverified} from 'react-icons/vsc'
 
 const About = () => {
   return (
-    <div className="about-area overflow-hidden ">
-    <div className="container">
-        <div className="about-items">
-            <div className="row align-center">
-
-                {/* <!-- Thumb --> */}
-                <div className="col-lg-6">
-                    <div className="thumb">
-                        <img src="assets/img/thumb/8.jpg" alt="Thumb"/>
-                        <div className="fun-fact">
-                            <div className="counter">
-                                <div className="timer" data-to="40" data-speed="2000">40</div>
-                                <div className="operator">K</div>
+    <>
+    
+    <div class="feature-area text-light default-padding bg-dark">
+        <div class="container">
+            <div class="row align-center">
+            <div class="col-lg-6 offset-lg-3">
+                    <div class="heading-center text-center">
+                        <h2>About Us</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInLeft">
+                    <img src="assets/img/illustration/23.png" alt="illustration"/>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    {/* <h2 class="wow fadeInRight" data-wow-delay="300ms">Powered with multiple design blocks</h2> */}
+                    <ul>
+                        <li class="feature-style-three wow fadeInRight" data-wow-delay="500ms">
+                            <div class="icon">
+                                <VscDebugBreakpointLogUnverified size={30}/>
                             </div>
-                            <span className="medium">Follower World Wide</span>
-                        </div>
-                    </div>
+                            <div class="info">
+                                {/* <h4>Custom Shortcuts</h4> */}
+                                <p>
+                                With a focus on strengthening the local garage network, SpotGarage works to ensure that you receive the quality service you deserve.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="feature-style-three wow fadeInRight" data-wow-delay="800ms">
+                            <div class="icon">
+                            <VscDebugBreakpointLogUnverified size={30}/>
+                            </div>
+                            <div class="info">
+                                {/* <h4>
+                                    Secure Integration</h4> */}
+                                <p>
+                                We are an expert and experienced team of technicians and mechanics who offers repair services, maintenance, the utmost care, and much more for vehicles on your doorstep without you ever stepping out.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="feature-style-three wow fadeInRight" data-wow-delay="1100ms">
+                            <div class="icon">
+                            <VscDebugBreakpointLogUnverified size={30}/>
+                            </div>
+                            <div class="info">
+                                {/* <h4>Free Live Chat</h4> */}
+                                <p>
+                                Our top-notch equipment, technology-aided facilities, and motivated team aim to resolve almost any vehicle-related issue related to your face. SpotGarage offers a new alternative to traditional car service providers. 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="feature-style-three wow fadeInRight" data-wow-delay="1100ms">
+                            <div class="icon">
+                            <VscDebugBreakpointLogUnverified size={30}/>
+                            </div>
+                            <div class="info">
+                                {/* <h4>Free Live Chat</h4> */}
+                                <p>
+                                unique online car service is changing the face of the automobile maintenance industry. Our firm belief in timely service makes us a step ahead of other similar services.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="feature-style-three wow fadeInRight" data-wow-delay="1100ms">
+                            <div class="icon">
+                            <VscDebugBreakpointLogUnverified size={30}/>
+                            </div>
+                            <div class="info">
+                                {/* <h4>Free Live Chat</h4> */}
+                                <p>
+                                we are now successfully running in 5 Cities of Bihar & Jharkhand. We focus on satisfying our client’s needs and make sure each step is carried out with the utmost care and the highest level of precision.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                {/* <!-- End Thumb --> */}
-
-                <div className="col-lg-6">
-                    <div className="content">
-                        <h2>Stories of Vasant Vijayji Mahara</h2>
-                        <p>
-                        Just before the establishment of Krishnagiri Jain Temple, Shri Vasant Vijayji Maharaj
-dreamt of having the temple's opening ceremony on 5th May 2003. Lots of work still
-needed to be completed before the temple could be completed
-                        </p>
-                        <ul>
-                            <li>
-                                <h5><TiTick/> Highest Success Rates</h5>
-                                <p>
-                                Based on the
-discussions with the architect, it appeared that an additional 27 lakhs INR would be
-needed to expedite the construction. Guruji had already promised that he would provide
-the architect with the 27 lakhs the next day.
-                                </p>
-                            </li>
-                            <li>
-                                <h5><TiTick/> Real world impact</h5>
-                                <p>
-                                Guruji was under a lot of pressure as he did not want to break the promise made to the
-architect. He had faith that his dream and faith would not lead him astray. However, the
-tension still remained. It was on the next day morning that one of his disciples from
-Bangalore approached him. This disciple’s wife was sick with UTS Cancer and the
-medicines she was taking did not have much effect.
-                                </p>
-                            </li>
-                            <li>
-                                <h5><TiTick/> Real world impact</h5>
-                                <p>
-                                This disciple’s wife was sick with UTS Cancer and the
-medicines she was taking did not have much effect. Guruji had conducted a yagna and
-asked the disciple to feed his wife with bhasma mixed in water every hour. The disciple
-and his wife followed the instructions of Guruji and took the bhasma+water every hour.
-Just when the bhasma was finished consuming, the doctor took a report and found that
-she was completely cured. It was not a coincidence but the trust Guruji had in Goddess
-Padmavathi, that the disciple offered exactly 27 lakh INR on the same day that he had to
-pay to the architect
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </div>
-</div>
+    </>
   )
 }
 
