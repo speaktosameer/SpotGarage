@@ -6474,6 +6474,7 @@ ul.achivement li:first-child {
 
 .accordion .card-header h4.collapsed:after {
   content: "\f105";
+  background-image: url('');
   font-weight: 700;
   color: #999999;
 }
