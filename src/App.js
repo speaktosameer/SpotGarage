@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Service from './components/Serve/Service';
 import Choose from './components/Choose/Choose'
 import Faq from './components/Faq/Faq';
+import Recognition from "./components/Recognition/Recognition"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Service/>
       <Choose/>
+      <Recognition/>
       <Faq/>
     </div>
   );
