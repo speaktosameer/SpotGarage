@@ -1246,26 +1246,26 @@ a.btn-simple:hover {
 }
 
 .btn.btn-light {
-  background: #ffffff none repeat scroll 0 0;
+  background: #ff6700 none repeat scroll 0 0;
   border: 2px solid #ffffff;
-  color: #0e2258;
+  color: #ffffff;
 }
 
 .btn.btn-light:hover,
 .btn.btn-light:focus {
   background: transparent none repeat scroll 0 0;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid #ff6700;
+  color: #0e2258;
 }
 
 .btn.btn-light.border {
   background: transparent;
-  border: 2px solid #ffffff !important;
-  color: #ffffff;
+  border: 2px solid #ff6700 !important;
+  color: #0e2258;
 }
 
 .btn.btn-light.border:hover {
-  background: #ffffff none repeat scroll 0 0 !important;
+  background: #ff6700 none repeat scroll 0 0 !important;
   border: 2px solid #ffffff !important;
   color: #0e2258 !important;
 }

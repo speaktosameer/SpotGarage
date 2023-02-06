@@ -1,10 +1,12 @@
 import Navbar from './components/Navbar/Navbar'
 import './App.css';
+import HeroSection from './components/HeroSection/HeroSection';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       < Navbar/>
+      <HeroSection/>
     </div>
   );
 }
