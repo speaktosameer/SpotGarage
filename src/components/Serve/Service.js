@@ -28,7 +28,7 @@ const Service = () => {
                         Main activities are dharmik aayojans like Puja, Pujan, Bhakti, Aagam Sutra, etc
                         </p> */}
                     </div>
-                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'100%', borderRadius:'0px 0px 8px 8px'}}>Latest Tools</a>
+                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'54%', borderRadius:'0px 0px 8px 8px'}}>Latest Tools</a>
                 </div>
                 {/* Single Itme 
                 Single Itme */}
@@ -40,7 +40,7 @@ const Service = () => {
                         Main activities are for anukampa (for poverty alleviation)
                     </p> */}
                     </div>
-                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'100%', borderRadius:'0px 0px 8px 8px'}}>Spare Parts & Lubricants</a>
+                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'54%', borderRadius:'0px 0px 8px 8px'}}>Spare Parts & Lubricants</a>
                 </div>
                  {/* Single Itme
                  Single Itme */}
@@ -53,7 +53,7 @@ const Service = () => {
 
                         </p> */}
                     </div>
-                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'100%', borderRadius:'0px 0px 8px 8px'}}>Billing Software</a>
+                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'54%', borderRadius:'0px 0px 8px 8px'}}>Billing Software</a>
                 </div>
                 {/* <!-- Single Itme -->
                 <!-- Single Itme --> */}
@@ -65,7 +65,7 @@ const Service = () => {
                         Activities promoting compassion towards animals, humans and other living beings, Benefits of being vegan , Demerits of eating non-vegetarian
                         </p> */}
                     </div>
-                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'100%', borderRadius:'0px 0px 8px 8px'}}>Stock Inventory</a>
+                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'54%', borderRadius:'0px 0px 8px 8px'}}>Stock Inventory</a>
                 </div>
                 {/* <!-- Single Itme -->
                 <!-- Single Itme --> */}
@@ -78,7 +78,7 @@ const Service = () => {
 location 250 km from Chennai.
                         </p> */}
                     </div>
-                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'100%', borderRadius:'0px 0px 8px 8px'}}>24*7 Customer Support</a>
+                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'54%', borderRadius:'0px 0px 8px 8px'}}>24*7 Customer Support</a>
                 </div>
                 {/* <!-- Single Itme -->
                 <!-- Single Itme --> */}
@@ -90,7 +90,7 @@ location 250 km from Chennai.
                             Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy.
                         </p> */}
                     </div>
-                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'100%', borderRadius:'0px 0px 8px 8px'}}>Spare Parts & Lubricants</a>
+                    <a class="btn btn-theme effect btn-sm" href="#" style={{width:'54%', borderRadius:'0px 0px 8px 8px'}}>Spare Parts & Lubricants</a>
                 </div>
                 {/* <!-- Single Itme --> */}
             </div>

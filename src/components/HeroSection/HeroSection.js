@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsArrowRight} from 'react-icons/bs'
+import {BsFillArrowRightSquareFill, BsPlayCircleFill} from 'react-icons/bs'
 import {TbPlayerPlay} from 'react-icons/tb'
 import {RxCross2, RxHamburgerMenu} from 'react-icons/rx'
 import {FaFacebook} from 'react-icons/fa'
@@ -32,8 +32,8 @@ const HeroSection = () => {
                                             {/* <p data-animation="animated fadeInRight">
                                                 Difficult resembled eagerness nor. Same park bore on be. Warmth his law design say are person. Pronounce suspected in belonging conveying ye repulsive. interested collecting.
                                             </p> */}
-                                            <a className="btn circle btn-light effect btn-md" href="#"  data-animation="animated fadeInDown">Learn More &nbsp; <BsArrowRight size={18}/></a>
-                                            <a className="btn circle btn-light effect btn-md" href="#"  data-animation="animated fadeInDown"><TbPlayerPlay size={18}/> &nbsp; Play Video Now</a>
+                                            <a className="btn btn-light effect btn-md" href="#"  data-animation="animated fadeInDown" >Learn More &nbsp; <BsFillArrowRightSquareFill size={18}/></a>
+                                            <a className="btn btn-new effect btn-md" href="#"  data-animation="animated fadeInDown"><BsPlayCircleFill size={18}/> &nbsp; Play Video Now</a>
                                         </div>
                                         <div className="col-lg-6 thumb" data-animation="animated slideInUp">
                                             <img src="assets/img/illustration/24.png" alt="Thumb"/>

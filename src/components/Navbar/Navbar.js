@@ -7,115 +7,94 @@ import {BsInstagram, BsArrowRightCircle} from 'react-icons/bs'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-default navbar-sticky bootsnav">
-            <div className="container-full">
+    <nav class="navbar navbar-default navbar background-gray white bootsnav">
 
-                {/* Start Atribute Navigation */}
-                <div className="attr-nav">
+            <div class="container-full">
+
+                {/* <!-- Start Atribute Navigation --> */}
+                <div class="attr-nav">
                     <ul>
-                        {/* <li className="search"></li> */}
-                        {/* <li className="side-menu">
-                            <a href="#">
-                                <span className="bar-1"></span>
-                                <span className="bar-2"></span>
-                                <span className="bar-3"></span>
-                            </a>
-                        </li> */}
+                        <li class="menu" ><a href="#"  style={{backgroundColor:'#FF6700', color:'white'}}> Contact Us</a></li>
                     </ul>
                 </div>        
-                {/* End Atribute Navigation */}
+                {/* <!-- End Atribute Navigation --> */}
 
-                 {/* Start Header Navigation */}
-                <div className="navbar-header">
-                    <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <RxHamburgerMenu/>
+                {/* <!-- Start Header Navigation --> */}
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <RxHamburgerMenu/>
                     </button>
-                    <a className="navbar-brand" href="index.html">
-                        <img src="assets/logo.png" className="logo" alt="Logo" />
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/logo.png" class="logo logo-display" alt="Logo"/>
+                        {/* <img src="assets/logo.png" class="logo logo-scrolled" alt="Logo"/> */}
                     </a>
                 </div>
-                 {/* End Header Navigation  */}
+                {/* <!-- End Header Navigation --> */}
 
-                 {/* Collect the nav links, forms, and other content for toggling  */}
-                <div className="collapse navbar-collapse" id="navbar-menu">
-                    <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li className="dropdown">
-                            <a href="#">Home</a>
+                {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="dropdown">
+                            <a href="#"  data-toggle="dropdown" >Home</a>
+                            {/* <ul class="dropdown-menu">
+                                <li><a href="index-business.html">Corporate Business <span class="badge">new</span></a></li>
+                                <li><a href="index.html">Startup Agency</a></li>
+                                <li><a href="index-marketing-agency.html">Marketing Agency</a></li>
+                                <li><a href="app-landing.html">App Landing <span class="badge">new</span></a></li>
+                                <li><a href="index-digital-agency.html">Digital Agency</a></li>
+                                <li><a href="index-it-solution.html">It Solution</a></li>
+                                <li><a href="index-software-landing.html">Software Landing <span class="badge">New</span></a></li>
+                                <li><a href="minimal-ecommerce.html">Minimal Ecommerce <span class="badge">new</span></a></li>
+                            </ul> */}
                         </li>
-                        <li className="dropdown">
-                            <a href="#" >About Us</a>
+                        <li class="dropdown">
+                            <a href="#"  data-toggle="dropdown" >About Us</a>
+                            {/* <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Projects</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="projects.html">Our Projects</a></li>
+                                        <li><a href="project-details.html">Projects Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="pricing-table.html">Pricing Table</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="404.html">Error Page</a></li>
+                            </ul> */}
                         </li>
-                        <li className="dropdown">
-                            <a href="#">Become Partner</a>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" >Become a Partner</a>
+                            {/* <ul class="dropdown-menu">
+                                <li><a href="shop.html">shop</a></li>
+                                <li><a href="shop-single.html">Product Details</a></li>
+                            </ul> */}
                         </li>
-                        <li className="dropdown">
-                            <a href="#">Contact</a>
-                        </li>
-                        {/* <li class="menu"><a href="#"><i class="fal"></i> Contact</a></li> */}
-                        {/* <li className="dropdown">
-                            <a href="#">OutReach</a>
-                        </li>
-                        <li><a href="#">contact</a></li> */}
+                        {/* <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
+                             <ul class="dropdown-menu">
+                                <li><a href="services.html">Services Version One</a></li>
+                                <li><a href="services-2.html">Services Version Two</a></li>
+                                <li><a href="services-details.html">Services Details</a></li>
+                            </ul> 
+                        </li> */}
+                        {/* <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
+                             <ul class="dropdown-menu">
+                                <li><a href="blog-standard.html">Blog Standard</a></li>
+                                <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
+                                <li><a href="blog-2-colum.html">Blog Grid Two Colum</a></li>
+                                <li><a href="blog-3-colum.html">Blog Grid Three Colum</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                                <li><a href="blog-single-with-sidebar.html">Blog Single With Sidebar</a></li>
+                            </ul> 
+                        </li> */}
+                        {/* <li><a href="contact.html">contact</a></li> */}
                     </ul>
                 </div>
-                 {/* navbar-collapse  */}
+                {/* <!-- /.navbar-collapse --> */}
             </div>
-
-             {/* Start Side Menu  */}
-            <div className="side">
-                <a href="#" className="close-side"><RxCross2/></a>
-                <div className="widget">
-                    <img src="assets/img/logo.png" alt="Logo" />
-                    <p>
-                    He is a deeply spiritual Jainmonk, with a secular & universal orientation to the pursuit of non-violent conflict resolution, promotion of peace, tolerance, and brother-hood of man.                    </p>
-                </div>
-                <div className="widget address">
-                    <div>
-                        <ul>
-                            <li>
-                                <div className="content">
-                                    <p>Address</p> 
-                                    <strong>Shree Parshwa Padmavati Nagar,<br/>Sadhanpalli, Sundampatti Post,<br/>Post: Orappam Krishnagir</strong>
-                                </div>
-                            </li>
-                            {/* <li>
-                                <div className="content">
-                                    <p>Email</p> 
-                                    <strong>support@validtheme.com</strong>
-                                </div>
-                            </li> */}
-                            <li>
-                                <div className="content">
-                                    <p>Contact</p> 
-                                    <strong>+91 4343 329 323</strong>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="widget newsletter">
-                    <h4 className="title">Get Subscribed!</h4>
-                    <form action="#">
-                        <div className="input-group stylish-input-group">
-                            <input type="email" placeholder="Enter your e-mail" className="form-control" name="email" />
-                            <span className="input-group-addon">
-                                <button type="submit">
-                                <BsArrowRightCircle/>
-                                </button>  
-                            </span>
-                        </div>
-                    </form>
-                </div>
-                <div className="widget social">
-                    <ul className="link">
-                        <li><a href="#"><FaFacebook/></a></li>
-                        <li><a href="#"><SiTwitter/></a></li>
-                        <li><a href="#"><RxLinkedinLogo/></a></li>
-                        <li><a href="#"><BsInstagram/></a></li>
-                    </ul>
-                </div>
-            </div>
-             {/* End Side Menu  */}
 
         </nav>
   )
